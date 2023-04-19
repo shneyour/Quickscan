@@ -15,7 +15,8 @@ you chose 1 vs 1 or general option.
 ![cellID_DEG_heatmap](https://user-images.githubusercontent.com/122822144/232984393-a316d47a-c1d7-4d61-84d1-db24eeee820f.png)
 ![Arterial_vs_Capillary_rank](https://user-images.githubusercontent.com/122822144/232984412-913ae76c-da05-4b70-b5ff-157f667b5d98.png)
 
-Next, if processes is set to True, you will get barplots of each cell's enriched pathways based on GSEApy's enrichr tool. 
+Next, if processes is set to True, you will get barplots of each cell's enriched pathways based on GSEApy's enrichr tool.
+Enrichr's input is a list of DEGs (as of 19/4/2023 filtered by adj. p-val < 0.05 and lfg > 0.4) and gives back the enriched pathways for each cell.
 ![ArterialvsCapillaryUpregulated](https://user-images.githubusercontent.com/122822144/232985212-a5f9e0cd-5805-47eb-82ee-e83f5ad82147.png)
 
 ![Arterial](https://user-images.githubusercontent.com/122822144/232985242-582b2364-f1c4-4217-8282-c71d285549d0.png)
